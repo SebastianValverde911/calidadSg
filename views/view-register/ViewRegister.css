@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container-register {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-register form {
+    width: 200px;
+    height: 320px;
+    background-color: #0f172a;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+    box-shadow: 0 10px 10px black;
+}
+
+.container-register form .btn-register {
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    border: 0px solid black;
+    height: 25px;
+    cursor: pointer;
+}
